@@ -9,7 +9,7 @@ package Modelo;
  * @author juand
  */
 public class Mascota {
-    private Adoptante adoptante;
+    private Adoptante adoptante;//CAMBIO
     private int edad;
     private String especie;
     private String nombre;
