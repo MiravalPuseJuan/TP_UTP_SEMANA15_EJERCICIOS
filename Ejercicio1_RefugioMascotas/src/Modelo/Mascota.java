@@ -51,8 +51,8 @@ public class Mascota {
     
     @Override 
     public String toString(){
-      return String.format("\n"
-              + "  -> Adoptante: " +adoptante.toString());  
+      return String.format("Mascota: %s [%s, %d años]\n",nombre,especie,edad)
+              + ("  -> Adoptante: " +adoptante.toString());  
     }
     
     public boolean esCachorro(){
